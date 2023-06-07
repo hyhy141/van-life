@@ -1,0 +1,121 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+section {
+  padding: 3em 3em;
+}
+
+/* Footer */
+.footer {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2em 0;
+  color: #aaaaaa;
+  background-color: #252525;
+}
+
+/* Header */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  height: 10v;
+  background-color: #fff7ed;
+}
+
+.menu {
+  display: flex;
+  gap: 3rem;
+}
+
+.menu_item {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #4d4d4d;
+}
+
+.menu_item:focus {
+  text-decoration: underline;
+  color: #161616;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Main */
+.main_container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: url(./assets/image\ 53.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.main_container h1 {
+  margin-top: 2em;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 42px;
+}
+
+.main_container p {
+  line-height: 24px;
+}
+
+.main_container button {
+  margin-top: 3rem;
+  padding: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  background-color: #ff8c38;
+  border: none;
+  border-radius: 5px;
+}
+
+/* About */
+.about_img {
+  width: 100%;
+}
+
+.about_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_text {
+  margin-bottom: 2rem;
+}
+
+.about_section h1 {
+  font-size: 32px;
+}
+
+.about_offer {
+  background-color: #ffcc8d;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.about_offer button {
+  padding: 1rem 2rem;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
