@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   const activeStyle = {
@@ -36,6 +36,13 @@ const Header = () => {
         >
           Vans
         </NavLink>
+        <Link to="/login" className="menu_item">
+          <img
+            src={require("../assets/Icon.png")}
+            alt="login"
+            className="login_icon"
+          />
+        </Link>
       </div>
     </nav>
   );
